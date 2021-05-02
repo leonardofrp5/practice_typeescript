@@ -7,6 +7,7 @@ randomValue = 'Mateo';
 randomValue.toUpperCase();
 randomValue.toUpperCase();
 // Esta forma es mucho mejor y ayuda vas a evitar erroes
+// Ya que si vamos al archivo de Js veremos q la validacion sigue y si no cumple el tupo no se ejecuta.
 if (typeof randomValue === 'string') {
     randomValue.toUpperCase();
 }
