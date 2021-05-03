@@ -25,3 +25,8 @@ let newManager = {
     age: 34,
     stockPlan: true
 };
+let myResult;
+myResult = 'incomplete'; //* Valid
+myResult = 'pass'; //* Valid
+// por eso aca nos falla y sale q este error no es asinable a testResult
+// myResult = 'failure'; //* Invalid
