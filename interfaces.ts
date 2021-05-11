@@ -44,3 +44,28 @@ const data = {
 };
 
 test(data);
+
+export interface Javascript {
+  react: boolean;
+  angular: boolean;
+  experiences: number;
+  name: string;
+}
+export interface DataPlus extends Javascript {
+  lastName: string;
+}
+
+export const values: Javascript = {
+  react: true,
+  angular: false,
+  experiences: 3,
+  name: 'leo'
+};
+
+function inter(values: Javascript) {
+  if (values.react) {
+    console.log('saba react');
+  }
+}
+
+inter(values);
